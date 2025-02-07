@@ -1,0 +1,81 @@
+.oson-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    background: #ffffff;
+    position: relative;
+}
+
+.oson-container {
+    position: relative;
+    width: 600px;
+}
+
+.oson-card {
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 0;
+}
+
+/* 🔵 1-karta */
+.oson-card-1 {
+    background: #2c2cff;
+    top: 0;
+    z-index: 1;
+}
+
+/* 🔷 2-karta */
+.oson-card-2 {
+    background: #0098ff;
+    top: 60px;
+    z-index: 2;
+}
+
+/* 🔵 3-karta */
+.oson-card-3 {
+    background: #0000b5;
+    top: 120px;
+    padding-bottom: 40px;
+    z-index: 3;
+}
+
+.oson-card-3 h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.oson-card-3 p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d1ff;
+}
+
+/* ➜ (o‘ngga yo‘nalgan o‘qcha) */
+.oson-arrow {
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Oson bilan Bo‘ling */
+.oson-footer {
+    margin-top: 230px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #000080;
+}
+
+.oson-logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 5px;
+}

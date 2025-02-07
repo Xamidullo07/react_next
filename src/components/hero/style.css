@@ -1,0 +1,107 @@
+/* Umumiy sozlamalar */
+body {
+  font-family: Arial, sans-serif;
+  background: #00008c;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asosiy sahifa */
+.home_pages {
+  text-align: center;
+}
+
+/* Kontent ichidagi qism */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Sarlavha */
+.home_title {
+  padding-top: 119px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Tugmalar */
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.store_btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.store_btn img {
+  width: 20px;
+}
+
+.store_btn:hover {
+  background: #e0e0e0;
+}
+
+/* Telefon rasmi */
+.hero_image img {
+  max-width: 600px;
+  height: auto;
+}
+
+/* Xususiyatlar (pastki qism) */
+.features {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  /* background: rgba(255, 255, 255, 0.1); */
+  /* border-radius: 12px; */
+  border-radius: 15px;
+  backdrop-filter: blur(200px);
+  background: rgba(0, 0, 140, 0.01);
+}
+
+.feature_card {
+  width: 376px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px 0 0 0;
+  backdrop-filter: blur(200px);
+  background: rgba(0, 0, 140, 0.01);
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 94px;
+  padding-right: 74px;
+}
+
+.feature_card h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #fff;
+}
+
+.feature_card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: #fff;
+  opacity: 0.7;
+}
